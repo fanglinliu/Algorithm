@@ -80,20 +80,16 @@ Node* reverse_list(Node* list)
 
 Node* recursive_reverse_list(Node* list)
 {
-    Node* reversed_list = NULL;
     Node* head = list;
+    if ( head == NULL || head->next == NULL)
+    {
+        return head;
+    }
+    
     Node* next = head->next;
     
-    if ( next )
-    {
-        reversed_list = recursive_reverse_list(next);
-        next->next = head;
-        
-    }
-    else
-    {
-        reversed_list = head;
-    }
+    Node* reversed_list = recursive_reverse_list(next);
+    next->next = head;
 
     head->next = NULL;
 
