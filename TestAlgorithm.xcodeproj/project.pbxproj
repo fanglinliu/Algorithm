@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		36C2AABF1C9CF8AB006737B7 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36C2AABE1C9CF8AB006737B7 /* main.mm */; };
-		36C2AAC71C9CFD38006737B7 /* algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C2AAC51C9CFD38006737B7 /* algorithm.cpp */; };
 		36C2AACA1C9D35A9006737B7 /* reverse_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C2AAC81C9D35A9006737B7 /* reverse_list.cpp */; };
 /* End PBXBuildFile section */
 
@@ -27,8 +26,6 @@
 /* Begin PBXFileReference section */
 		36C2AABB1C9CF8AB006737B7 /* TestAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C2AABE1C9CF8AB006737B7 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
-		36C2AAC51C9CFD38006737B7 /* algorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = algorithm.cpp; sourceTree = "<group>"; };
-		36C2AAC61C9CFD38006737B7 /* algorithm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = algorithm.hpp; sourceTree = "<group>"; };
 		36C2AAC81C9D35A9006737B7 /* reverse_list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reverse_list.cpp; sourceTree = "<group>"; };
 		36C2AAC91C9D35A9006737B7 /* reverse_list.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = reverse_list.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,8 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				36C2AABE1C9CF8AB006737B7 /* main.mm */,
-				36C2AAC51C9CFD38006737B7 /* algorithm.cpp */,
-				36C2AAC61C9CFD38006737B7 /* algorithm.hpp */,
 				36C2AAC81C9D35A9006737B7 /* reverse_list.cpp */,
 				36C2AAC91C9D35A9006737B7 /* reverse_list.hpp */,
 			);
@@ -129,7 +124,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				36C2AABF1C9CF8AB006737B7 /* main.mm in Sources */,
-				36C2AAC71C9CFD38006737B7 /* algorithm.cpp in Sources */,
 				36C2AACA1C9D35A9006737B7 /* reverse_list.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
