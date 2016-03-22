@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		36C2AABF1C9CF8AB006737B7 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36C2AABE1C9CF8AB006737B7 /* main.mm */; };
 		36C2AACA1C9D35A9006737B7 /* reverse_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C2AAC81C9D35A9006737B7 /* reverse_list.cpp */; };
+		36C2AACD1C9E7102006737B7 /* permute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C2AACB1C9E7102006737B7 /* permute.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		36C2AABE1C9CF8AB006737B7 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		36C2AAC81C9D35A9006737B7 /* reverse_list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reverse_list.cpp; sourceTree = "<group>"; };
 		36C2AAC91C9D35A9006737B7 /* reverse_list.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = reverse_list.hpp; sourceTree = "<group>"; };
+		36C2AACB1C9E7102006737B7 /* permute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = permute.cpp; sourceTree = "<group>"; };
+		36C2AACC1C9E7102006737B7 /* permute.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = permute.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				36C2AABE1C9CF8AB006737B7 /* main.mm */,
 				36C2AAC81C9D35A9006737B7 /* reverse_list.cpp */,
 				36C2AAC91C9D35A9006737B7 /* reverse_list.hpp */,
+				36C2AACB1C9E7102006737B7 /* permute.cpp */,
+				36C2AACC1C9E7102006737B7 /* permute.hpp */,
 			);
 			path = TestAlgorithm;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36C2AACD1C9E7102006737B7 /* permute.cpp in Sources */,
 				36C2AABF1C9CF8AB006737B7 /* main.mm in Sources */,
 				36C2AACA1C9D35A9006737B7 /* reverse_list.cpp in Sources */,
 			);
