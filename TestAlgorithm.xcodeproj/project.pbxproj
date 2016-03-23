@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		368A94261CA2397400D98962 /* combine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 368A94231CA2397400D98962 /* combine.cpp */; };
+		368A942A1CA239C500D98962 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 368A94271CA239C500D98962 /* utils.cpp */; };
 		36C2AABF1C9CF8AB006737B7 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36C2AABE1C9CF8AB006737B7 /* main.mm */; };
 		36C2AACA1C9D35A9006737B7 /* reverse_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C2AAC81C9D35A9006737B7 /* reverse_list.cpp */; };
 		36C2AACD1C9E7102006737B7 /* permute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C2AACB1C9E7102006737B7 /* permute.cpp */; };
@@ -25,6 +27,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		368A94231CA2397400D98962 /* combine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = combine.cpp; sourceTree = "<group>"; };
+		368A94251CA2397400D98962 /* combine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = combine.hpp; sourceTree = "<group>"; };
+		368A94271CA239C500D98962 /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
+		368A94291CA239C500D98962 /* utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = utils.hpp; sourceTree = "<group>"; };
 		36C2AABB1C9CF8AB006737B7 /* TestAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C2AABE1C9CF8AB006737B7 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		36C2AAC81C9D35A9006737B7 /* reverse_list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reverse_list.cpp; sourceTree = "<group>"; };
@@ -66,8 +72,12 @@
 				36C2AABE1C9CF8AB006737B7 /* main.mm */,
 				36C2AAC81C9D35A9006737B7 /* reverse_list.cpp */,
 				36C2AAC91C9D35A9006737B7 /* reverse_list.hpp */,
+				368A94231CA2397400D98962 /* combine.cpp */,
+				368A94251CA2397400D98962 /* combine.hpp */,
 				36C2AACB1C9E7102006737B7 /* permute.cpp */,
 				36C2AACC1C9E7102006737B7 /* permute.hpp */,
+				368A94271CA239C500D98962 /* utils.cpp */,
+				368A94291CA239C500D98962 /* utils.hpp */,
 			);
 			path = TestAlgorithm;
 			sourceTree = "<group>";
@@ -129,6 +139,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				36C2AACD1C9E7102006737B7 /* permute.cpp in Sources */,
+				368A942A1CA239C500D98962 /* utils.cpp in Sources */,
+				368A94261CA2397400D98962 /* combine.cpp in Sources */,
 				36C2AABF1C9CF8AB006737B7 /* main.mm in Sources */,
 				36C2AACA1C9D35A9006737B7 /* reverse_list.cpp in Sources */,
 			);
@@ -173,7 +185,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -210,7 +222,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};

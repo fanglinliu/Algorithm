@@ -9,28 +9,12 @@
 #include "permute.hpp"
 #include <vector>
 #include <iostream>
+#include "utils.hpp"
+
 using namespace std;
 
-vector<int> create_vector()
-{
-    vector<int> vec;
-    for ( int i = 0 ; i < 3; i++ )
-    {
-        vec.push_back(i + 1);
-    }
-    
-    return vec;
-}
 
-void print(vector<int> vec)
-{
-    for ( int i = 0; i < vec.size(); i++ )
-    {
-        cout << vec[i] << "\t" ;
-    }
-    
-    cout << endl;
-}
+
 
 static int cnt = 0;
 
@@ -91,7 +75,7 @@ void permute_swap_before(vector<int> vec)
 
 void permute_example()
 {
-    vector<int> vec = create_vector();
+    vector<int> vec = create_vector(3);
 //    print(vec);
     
     permute( vec );
