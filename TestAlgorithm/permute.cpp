@@ -14,8 +14,6 @@
 using namespace std;
 
 
-
-
 static int cnt = 0;
 
 void permute_sub(vector<int> vec, int permute_size)
@@ -23,15 +21,16 @@ void permute_sub(vector<int> vec, int permute_size)
     if ( permute_size <= 1 )
     {
         ++cnt;
-        print(vec);
         
+        print(vec);
         return;
     }
     
     for ( int i = 0 ; i < permute_size; i++ )
     {
+        swap( vec[ permute_size - 1 - i ], vec[permute_size -1]); // mehtod 1
         permute_sub(vec, permute_size -1 );
-        swap(vec[i], vec[ permute_size - 1 ] );
+//        swap(vec[i], vec[ permute_size - 1 ] );  // method 2
     }
     
 }
@@ -80,7 +79,7 @@ void permute_example()
     
     permute( vec );
     
-    permute_swap_before(vec);
+//    permute_swap_before(vec);
 }
 
 

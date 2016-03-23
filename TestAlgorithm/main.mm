@@ -18,8 +18,8 @@ int main(int argc, const char * argv[]) {
         // insert code here...
         
 //        run_reverse_list();
-//        permute_example();
-        run_combine_example();
+        permute_example();
+//        run_combine_example();
         
     }
     return 0;
