@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		368A94261CA2397400D98962 /* combine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 368A94231CA2397400D98962 /* combine.cpp */; };
 		368A942A1CA239C500D98962 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 368A94271CA239C500D98962 /* utils.cpp */; };
+		3693485F1DF8048100AE3352 /* permute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3693485D1DF8048100AE3352 /* permute.cpp */; };
+		369348621DF804A000AE3352 /* recursive_permute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 369348601DF804A000AE3352 /* recursive_permute.cpp */; };
+		369348651DF8054000AE3352 /* next_permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 369348631DF8054000AE3352 /* next_permutation.cpp */; };
 		36C2AABF1C9CF8AB006737B7 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36C2AABE1C9CF8AB006737B7 /* main.mm */; };
 		36C2AACA1C9D35A9006737B7 /* reverse_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C2AAC81C9D35A9006737B7 /* reverse_list.cpp */; };
-		36C2AACD1C9E7102006737B7 /* permute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C2AACB1C9E7102006737B7 /* permute.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,12 +33,16 @@
 		368A94251CA2397400D98962 /* combine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = combine.hpp; sourceTree = "<group>"; };
 		368A94271CA239C500D98962 /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
 		368A94291CA239C500D98962 /* utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = utils.hpp; sourceTree = "<group>"; };
+		3693485D1DF8048100AE3352 /* permute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = permute.cpp; sourceTree = "<group>"; };
+		3693485E1DF8048100AE3352 /* permute.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = permute.hpp; sourceTree = "<group>"; };
+		369348601DF804A000AE3352 /* recursive_permute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = recursive_permute.cpp; sourceTree = "<group>"; };
+		369348611DF804A000AE3352 /* recursive_permute.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = recursive_permute.hpp; sourceTree = "<group>"; };
+		369348631DF8054000AE3352 /* next_permutation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = next_permutation.cpp; sourceTree = "<group>"; };
+		369348641DF8054000AE3352 /* next_permutation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = next_permutation.hpp; sourceTree = "<group>"; };
 		36C2AABB1C9CF8AB006737B7 /* TestAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C2AABE1C9CF8AB006737B7 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		36C2AAC81C9D35A9006737B7 /* reverse_list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reverse_list.cpp; sourceTree = "<group>"; };
 		36C2AAC91C9D35A9006737B7 /* reverse_list.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = reverse_list.hpp; sourceTree = "<group>"; };
-		36C2AACB1C9E7102006737B7 /* permute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = permute.cpp; sourceTree = "<group>"; };
-		36C2AACC1C9E7102006737B7 /* permute.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = permute.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +56,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3693485C1DF8046100AE3352 /* permute */ = {
+			isa = PBXGroup;
+			children = (
+				3693485D1DF8048100AE3352 /* permute.cpp */,
+				3693485E1DF8048100AE3352 /* permute.hpp */,
+				369348601DF804A000AE3352 /* recursive_permute.cpp */,
+				369348611DF804A000AE3352 /* recursive_permute.hpp */,
+				369348631DF8054000AE3352 /* next_permutation.cpp */,
+				369348641DF8054000AE3352 /* next_permutation.hpp */,
+			);
+			path = permute;
+			sourceTree = "<group>";
+		};
 		36C2AAB21C9CF8AA006737B7 = {
 			isa = PBXGroup;
 			children = (
@@ -69,13 +88,12 @@
 		36C2AABD1C9CF8AB006737B7 /* TestAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				3693485C1DF8046100AE3352 /* permute */,
 				36C2AABE1C9CF8AB006737B7 /* main.mm */,
 				36C2AAC81C9D35A9006737B7 /* reverse_list.cpp */,
 				36C2AAC91C9D35A9006737B7 /* reverse_list.hpp */,
 				368A94231CA2397400D98962 /* combine.cpp */,
 				368A94251CA2397400D98962 /* combine.hpp */,
-				36C2AACB1C9E7102006737B7 /* permute.cpp */,
-				36C2AACC1C9E7102006737B7 /* permute.hpp */,
 				368A94271CA239C500D98962 /* utils.cpp */,
 				368A94291CA239C500D98962 /* utils.hpp */,
 			);
@@ -138,9 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36C2AACD1C9E7102006737B7 /* permute.cpp in Sources */,
+				369348651DF8054000AE3352 /* next_permutation.cpp in Sources */,
 				368A942A1CA239C500D98962 /* utils.cpp in Sources */,
 				368A94261CA2397400D98962 /* combine.cpp in Sources */,
+				3693485F1DF8048100AE3352 /* permute.cpp in Sources */,
+				369348621DF804A000AE3352 /* recursive_permute.cpp in Sources */,
 				36C2AABF1C9CF8AB006737B7 /* main.mm in Sources */,
 				36C2AACA1C9D35A9006737B7 /* reverse_list.cpp in Sources */,
 			);
