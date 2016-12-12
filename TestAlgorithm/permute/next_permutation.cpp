@@ -43,22 +43,22 @@ void next_permutation(vector<int>& vec) {
         reverse(vec.begin(), vec.end());
     }
 }
-
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    vector<int> vec = {1, 2, 3, 4, 5, 6};
-    ::next_permutation(vec);
-    print(vec);
-
-    vec = {6, 5, 4, 3, 2, 1};
-    ::next_permutation(vec);
-    print(vec);
-    
-    
-    vec = {1, 2, 3, 5, 6, 4};
-    ::next_permutation(vec);
-    print(vec);
-
-    return 0;
-}
+//
+//
+//int main(int argc, const char * argv[]) {
+//    // insert code here...
+//    vector<int> vec = {1, 2, 3, 4, 5, 6};
+//    ::next_permutation(vec);
+//    print(vec);
+//
+//    vec = {6, 5, 4, 3, 2, 1};
+//    ::next_permutation(vec);
+//    print(vec);
+//    
+//    
+//    vec = {1, 2, 3, 5, 6, 4};
+//    ::next_permutation(vec);
+//    print(vec);
+//
+//    return 0;
+//}

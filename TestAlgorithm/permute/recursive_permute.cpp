@@ -29,24 +29,24 @@ void printVector(vector<int> vec) {
     cout << std::endl;
 }
 
-void permute(const vector<int>& vec, size_t len) {
+void permute(vector<int>& vec, size_t len) {
     if (len == 1) {
         printVector(vec);
         return;
     }
     
     for (int i = 0; i < len; i++) {
-        vector<int> vecCopy(vec);
-        swap(vecCopy[i], vecCopy[len -1]);
-        permute(vecCopy, len - 1);
+        swap(vec[i], vec[len -1]);
+        permute(vec, len - 1);
+        swap(vec[i], vec[len -1]);
     }
 }
-//
-//int main(int argc, const char * argv[]) {
-//    // insert code here...
-//    vector<int> vec = {1, 2, 3};
-//    permute(vec, vec.size());
-//    
-//    std::cout << "Hello, World!\n" << "cnt: " << cnt << endl;
-//    return 0;
-//}
+
+int main(int argc, const char * argv[]) {
+    // insert code here...
+    vector<int> vec = {1, 2, 3};
+    permute(vec, vec.size());
+    
+    std::cout << "Hello, World!\n" << "cnt: " << cnt << endl;
+    return 0;
+}
